@@ -1,0 +1,8 @@
+name: Spotify Sentiment Analysis
+description: Sentiment analysis on Spotify user reviews using natural language processing.
+version: 1.0.0
+dependencies:
+  - pip install -r requirements.txt
+commands:
+  - name: Start Application
+    command: streamlit run src/app.py

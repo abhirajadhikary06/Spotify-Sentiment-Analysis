@@ -4,3 +4,10 @@ backgroundColor="#0E1117"
 secondaryBackgroundColor="#0E1117"
 textColor="#FAFAFA"
 font="monospace"
+
+[daytona]
+project_name = "Spotify Sentiment Analysis"
+entry_point = "src/app.py"
+environment = ".env"
+dependencies = "requirements.txt"
+database = "duckdb"
